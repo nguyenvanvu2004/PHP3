@@ -22,6 +22,10 @@ class DatabaseSeeder extends Seeder
             LienHeSeeder::class, 
             KhachHangSeeder::class,
             ChiTietDonHangSeeder::class,
+            BaiDangSeeder::class,
+            DanhGiaSeeder::class,
+            RatesSeeder::class,
+            DonHangSeeder::class,
         ]);
     }
 }
