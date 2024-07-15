@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('tb_danhgia', function (Blueprint $table) {
+        Schema::create('tb_danh_gias', function (Blueprint $table) {
             $table->id('id_danh_gia', 11);
             $table->text('noi_dung');
             $table->date('ngay_them');

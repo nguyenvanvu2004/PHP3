@@ -12,11 +12,10 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('tb_donhang', function (Blueprint $table) {
+        Schema::create('tb_don_hangs', function (Blueprint $table) {
             $table->id('id_donhang');
             $table->date('ngay_dat');
-            $table->double('11');git push -u origin main
-
+            $table->double('11');
             $table->boolean('trang_thai');
             $table->boolean('phuong_thuc_tt');
             $table->text('ten_nguoi_mua');
